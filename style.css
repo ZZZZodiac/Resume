@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url('./IMG/21.png');
+}
+
+
+.wrapper{
+   
+   width: 800px;
+   padding: 0;
+   margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid black;
+   border-radius: 10px;
+   background-color: whitesmoke;
+}
+
+.title_and_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media-section{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;   
+}
+
+.avatar{
+    background: url("./IMG/photo/photo_2022-06-16_18-50-46.jpg");
+    background-size: cover;
+    background-position: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 30px 30px 30px 30px;
+}
+
+.resume-name{
+    font-size: xx-large;
+}
+
+.social-media{
+    padding: 0;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-left: 2px solid #000;
+}
+
+.social-media-link{
+    padding: 0;
+    margin-top: 7px;
+}
+
+.social-media a {
+    color: grey;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social-media a:hover{
+   
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.some-text{
+    border: 1px solid gray;
+    border-radius: 30px 3px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0 0 5px 0px black;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+
+.education{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.education-title h2,
+.skills-title h2,
+.tools-title h2,
+.hobby-title h2{
+    margin-left: 5%;
+    color: lightcoral;
+}
+.university,
+.html-academy,
+.epam{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.university-name h4,
+.html-academy-name h4,
+.epam-name h4{
+    margin-bottom: 20px;
+}
+
+.master-degree h4{
+    margin-bottom: 20px;
+    padding-left: 20%;
+}
+.html-academy-level h4{
+    margin-bottom: 20px;
+    padding-left: 40%;
+}
+.epam-stage h4{
+    margin-bottom: 20px;
+    padding-left: 30%;
+}
+
+
+.skills{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.skills-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 5%;
+}
+.skill-levels{
+    display: flex;
+    flex-direction: row;
+}
+.skill-level{
+    border: 3px solid gold;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 3px;
+}
+.active{
+    background-color: gold;
+}
+
+.tools{
+    margin-bottom: 20px;
+}
+
+.tools-section ul{
+    margin-left: 5%;
+}
+
+.tools div p{
+    font-size: 20px;
+}
+
+.hobby-section{
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
