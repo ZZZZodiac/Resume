@@ -2,23 +2,27 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('./IMG/21.png');
 }
 
 .container{
     width: 100%;
     height: 100%;
     padding: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-image: url('./IMG/21.png');
+    margin: 0;  
 }
 
 
 .wrapper{
-   
+
    width: 800px;
    padding: 0;
-   margin: 0;
+   margin-top: auto;
+   margin-bottom: auto;
    margin-left: auto;
    margin-right: auto;
    border: 3px solid black;
@@ -32,23 +36,15 @@
     justify-content: space-between;
 }
 
-.social-media-section{
+.icon-block{
     display: flex;
-    flex-direction: row;
-}
-
-
-.icons{
-    display: flex;
-    flex-direction: column;
-    
 }
 
 .icon{
     width: 20px;
     height: 20px;
     margin-top: 5px;
-    margin-right: 5px;   
+    margin-right: 5px;
 }
 
 .avatar{
@@ -78,7 +74,7 @@
 
 .social-media-link{
     padding: 0;
-    margin-top: 7px;
+    margin: 3px;
 }
 
 .social-media a {
@@ -86,6 +82,12 @@
     margin: 0;
     padding: 0;
     
+}
+.social-link{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .social-media a:hover{
@@ -114,42 +116,44 @@
     display: flex;
     flex-direction: column;
 }
-.education-title h2,
-.skills-title h2,
-.tools-title h2,
-.hobby-title h2{
-    margin-left: 5%;
+
+.university{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 25px;
+}
+
+.khai,
+.epam,
+.html-academy{
+    border-bottom: 1px silver solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.khai-name,
+.khai-status,
+.epam-name,
+.epam-status,
+.html-academy-name,
+.html-academy-status{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 5px;
+}
+
+.education-title,
+.skills-title,
+.tools-title,
+.hobby-title{
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
     color: lightcoral;
 }
-.university,
-.html-academy,
-.epam{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.university-name h4,
-.html-academy-name h4,
-.epam-name h4{
-    margin-bottom: 20px;
-}
-
-.master-degree h4{
-    margin-bottom: 20px;
-    padding-left: 20%;
-}
-.html-academy-level h4{
-    margin-bottom: 20px;
-    padding-left: 40%;
-}
-.epam-stage h4{
-    margin-bottom: 20px;
-    padding-left: 30%;
-}
-
 
 .skills{
     margin: 0;
